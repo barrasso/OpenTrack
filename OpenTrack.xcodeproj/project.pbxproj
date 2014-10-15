@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		042DA20319EEE9B000215D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DA20219EEE9B000215D16 /* AppDelegate.swift */; };
-		042DA20519EEE9B000215D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DA20419EEE9B000215D16 /* ViewController.swift */; };
+		042DA20519EEE9B000215D16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DA20419EEE9B000215D16 /* MainViewController.swift */; };
 		042DA20819EEE9B000215D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042DA20619EEE9B000215D16 /* Main.storyboard */; };
 		042DA20A19EEE9B000215D16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042DA20919EEE9B000215D16 /* Images.xcassets */; };
 		042DA20D19EEE9B000215D16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042DA20B19EEE9B000215D16 /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		042DA1FD19EEE9B000215D16 /* OpenTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042DA20119EEE9B000215D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042DA20219EEE9B000215D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		042DA20419EEE9B000215D16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		042DA20419EEE9B000215D16 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		042DA20719EEE9B000215D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		042DA20919EEE9B000215D16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		042DA20C19EEE9B000215D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,10 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				042DA20219EEE9B000215D16 /* AppDelegate.swift */,
-				042DA20419EEE9B000215D16 /* ViewController.swift */,
 				042DA20619EEE9B000215D16 /* Main.storyboard */,
-				042DA20919EEE9B000215D16 /* Images.xcassets */,
 				042DA20B19EEE9B000215D16 /* LaunchScreen.xib */,
+				042DA20919EEE9B000215D16 /* Images.xcassets */,
+				042DA20419EEE9B000215D16 /* MainViewController.swift */,
 				042DA20019EEE9B000215D16 /* Supporting Files */,
 			);
 			path = OpenTrack;
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042DA20519EEE9B000215D16 /* ViewController.swift in Sources */,
+				042DA20519EEE9B000215D16 /* MainViewController.swift in Sources */,
 				042DA20319EEE9B000215D16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +339,7 @@
 				INFOPLIST_FILE = OpenTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +350,7 @@
 				INFOPLIST_FILE = OpenTrack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
