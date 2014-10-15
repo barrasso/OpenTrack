@@ -9,10 +9,33 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
+    // MARK: IBOutlets
+    @IBOutlet var eventsButton: UIButton!
+    @IBOutlet var shopButton: UIButton!
+    @IBOutlet var trackButton: UIButton!
+    @IBOutlet var helpButton: UIButton!
+    
+    // MARK: IBActions
+    @IBAction func eventsButtonPressed(sender: UIButton) {
+        
+    }
+    
+    @IBAction func shopButtonPressed(sender: UIButton) {
+        
+    }
+    
+    @IBAction func trackButtonPressed(sender: UIButton) {
+        
+    }
+    
+    @IBAction func helpButtonPressed(sender: UIButton) {
+        
+    }
+    
+    // MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
     }
 
@@ -20,6 +43,7 @@ class MainViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
 
 }

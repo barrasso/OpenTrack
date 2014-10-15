@@ -23,7 +23,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LkP-uU-rSH">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LkP-uU-rSH" userLabel="Events">
                                 <rect key="frame" x="178" y="229" width="157" height="152"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
                                 <inset key="titleEdgeInsets" minX="-130" minY="0.0" maxX="0.0" maxY="-125"/>
@@ -31,8 +31,11 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="eventsButtonPressed:" destination="ABz-xz-11u" eventType="touchUpInside" id="6qr-wR-9rB"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="jYx-p5-gZT">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="jYx-p5-gZT" userLabel="Tracks">
                                 <rect key="frame" x="35" y="231" width="87" height="148"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
                                 <inset key="titleEdgeInsets" minX="-140" minY="0.0" maxX="0.0" maxY="-125"/>
@@ -40,20 +43,29 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="trackButtonPressed:" destination="ABz-xz-11u" eventType="touchUpInside" id="ela-EM-sjj"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ni9-ml-iZU">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ni9-ml-iZU" userLabel="Help">
                                 <rect key="frame" x="216" y="378" width="80" height="80"/>
                                 <state key="normal" image="options-icon.png">
                                     <color key="titleColor" red="0.96613875680000005" green="0.26833869690000001" blue="0.2152998813" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="helpButtonPressed:" destination="ABz-xz-11u" eventType="touchUpInside" id="ynN-NH-89e"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwm-PJ-cau">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwm-PJ-cau" userLabel="Shop">
                                 <rect key="frame" x="38" y="378" width="80" height="80"/>
                                 <state key="normal" image="shop-icon.png">
                                     <color key="titleColor" red="0.96613875680000005" green="0.26833869690000001" blue="0.2152998813" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="shopButtonPressed:" destination="ABz-xz-11u" eventType="touchUpInside" id="R7D-j3-dmZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -71,6 +83,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Open Track" id="4rz-WP-BMD"/>
+                    <connections>
+                        <outlet property="eventsButton" destination="LkP-uU-rSH" id="Lwb-aD-y2w"/>
+                        <outlet property="helpButton" destination="ni9-ml-iZU" id="jrT-cU-Wkz"/>
+                        <outlet property="shopButton" destination="fwm-PJ-cau" id="H0g-6z-0sz"/>
+                        <outlet property="trackButton" destination="jYx-p5-gZT" id="7NH-Ji-jhz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8q-5s-JuZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
