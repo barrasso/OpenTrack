@@ -13,6 +13,10 @@
 		042DA20A19EEE9B000215D16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042DA20919EEE9B000215D16 /* Images.xcassets */; };
 		042DA20D19EEE9B000215D16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042DA20B19EEE9B000215D16 /* LaunchScreen.xib */; };
 		042DA21919EEE9B000215D16 /* OpenTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DA21819EEE9B000215D16 /* OpenTrackTests.swift */; };
+		042DA2C419EF1A2A00215D16 /* tracks-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 042DA2C319EF1A2A00215D16 /* tracks-icon.png */; };
+		042DA2C619EF1B6300215D16 /* events-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 042DA2C519EF1B6300215D16 /* events-icon.png */; };
+		042DA2C819EF1BCE00215D16 /* shop-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 042DA2C719EF1BCE00215D16 /* shop-icon.png */; };
+		042DA2CA19EF1BD500215D16 /* options-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 042DA2C919EF1BD500215D16 /* options-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		042DA21219EEE9B000215D16 /* OpenTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042DA21719EEE9B000215D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042DA21819EEE9B000215D16 /* OpenTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTrackTests.swift; sourceTree = "<group>"; };
+		042DA2C319EF1A2A00215D16 /* tracks-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tracks-icon.png"; sourceTree = "<group>"; };
+		042DA2C519EF1B6300215D16 /* events-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "events-icon.png"; sourceTree = "<group>"; };
+		042DA2C719EF1BCE00215D16 /* shop-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop-icon.png"; sourceTree = "<group>"; };
+		042DA2C919EF1BD500215D16 /* options-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "options-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,10 @@
 		042DA20019EEE9B000215D16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				042DA2C919EF1BD500215D16 /* options-icon.png */,
+				042DA2C719EF1BCE00215D16 /* shop-icon.png */,
+				042DA2C319EF1A2A00215D16 /* tracks-icon.png */,
+				042DA2C519EF1B6300215D16 /* events-icon.png */,
 				042DA20119EEE9B000215D16 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042DA2C419EF1A2A00215D16 /* tracks-icon.png in Resources */,
+				042DA2CA19EF1BD500215D16 /* options-icon.png in Resources */,
+				042DA2C619EF1B6300215D16 /* events-icon.png in Resources */,
 				042DA20819EEE9B000215D16 /* Main.storyboard in Resources */,
 				042DA20D19EEE9B000215D16 /* LaunchScreen.xib in Resources */,
+				042DA2C819EF1BCE00215D16 /* shop-icon.png in Resources */,
 				042DA20A19EEE9B000215D16 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

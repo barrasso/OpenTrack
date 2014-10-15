@@ -17,34 +17,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LkP-uU-rSH">
-                                <rect key="frame" x="200" y="229" width="90" height="58"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="Events">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="OpenTrack" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iyt-sS-BWT">
+                                <rect key="frame" x="101" y="88" width="118" height="111"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="43"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LkP-uU-rSH">
+                                <rect key="frame" x="178" y="229" width="157" height="152"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <inset key="titleEdgeInsets" minX="-130" minY="0.0" maxX="0.0" maxY="-125"/>
+                                <state key="normal" image="events-icon.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="jYx-p5-gZT">
+                                <rect key="frame" x="35" y="231" width="87" height="148"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <inset key="titleEdgeInsets" minX="-140" minY="0.0" maxX="0.0" maxY="-125"/>
+                                <state key="normal" image="tracks-icon.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ni9-ml-iZU">
+                                <rect key="frame" x="216" y="378" width="80" height="80"/>
+                                <state key="normal" image="options-icon.png">
                                     <color key="titleColor" red="0.96613875680000005" green="0.26833869690000001" blue="0.2152998813" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwm-PJ-cau">
-                                <rect key="frame" x="0.0" y="364" width="122" height="96"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="Shop">
-                                    <color key="titleColor" red="0.96613875680000005" green="0.26833869690000001" blue="0.2152998813" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYx-p5-gZT">
-                                <rect key="frame" x="16" y="224" width="104" height="68"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="Tracks">
-                                    <color key="titleColor" red="0.96613875680000005" green="0.26833869690000001" blue="0.2152998813" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ni9-ml-iZU">
-                                <rect key="frame" x="206" y="378" width="104" height="68"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="More">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwm-PJ-cau">
+                                <rect key="frame" x="38" y="378" width="80" height="80"/>
+                                <state key="normal" image="shop-icon.png">
                                     <color key="titleColor" red="0.96613875680000005" green="0.26833869690000001" blue="0.2152998813" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -52,21 +58,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="jYx-p5-gZT" firstAttribute="top" secondItem="HJS-tp-FNz" secondAttribute="bottom" constant="250" id="1bN-4r-HpK"/>
-                            <constraint firstItem="fwm-PJ-cau" firstAttribute="top" secondItem="jYx-p5-gZT" secondAttribute="bottom" constant="100" id="Poy-7j-e6j"/>
+                            <constraint firstItem="jYx-p5-gZT" firstAttribute="top" secondItem="HJS-tp-FNz" secondAttribute="bottom" constant="225" id="1bN-4r-HpK"/>
+                            <constraint firstAttribute="centerX" secondItem="Iyt-sS-BWT" secondAttribute="centerX" id="PRN-Bq-nPA"/>
+                            <constraint firstItem="fwm-PJ-cau" firstAttribute="top" secondItem="jYx-p5-gZT" secondAttribute="bottom" constant="75" id="Poy-7j-e6j"/>
                             <constraint firstItem="jYx-p5-gZT" firstAttribute="leading" secondItem="tNX-R1-oVk" secondAttribute="leadingMargin" constant="35" id="SH0-c2-cqF"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ni9-ml-iZU" secondAttribute="trailing" constant="35" id="Vyt-gz-lUJ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LkP-uU-rSH" secondAttribute="trailing" constant="35" id="fG6-E1-GA4"/>
-                            <constraint firstItem="ni9-ml-iZU" firstAttribute="top" secondItem="LkP-uU-rSH" secondAttribute="bottom" constant="100" id="p2w-15-ttV"/>
-                            <constraint firstItem="LkP-uU-rSH" firstAttribute="top" secondItem="HJS-tp-FNz" secondAttribute="bottom" constant="250" id="re1-03-aZ5"/>
+                            <constraint firstItem="ni9-ml-iZU" firstAttribute="top" secondItem="LkP-uU-rSH" secondAttribute="bottom" constant="75" id="p2w-15-ttV"/>
+                            <constraint firstItem="LkP-uU-rSH" firstAttribute="top" secondItem="HJS-tp-FNz" secondAttribute="bottom" constant="225" id="re1-03-aZ5"/>
                             <constraint firstItem="fwm-PJ-cau" firstAttribute="leading" secondItem="tNX-R1-oVk" secondAttribute="leadingMargin" constant="35" id="tfM-UN-gCc"/>
+                            <constraint firstItem="Iyt-sS-BWT" firstAttribute="top" secondItem="HJS-tp-FNz" secondAttribute="bottom" constant="75" id="tix-dL-Y1O"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Open Track" id="4rz-WP-BMD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8q-5s-JuZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-143.46666666666667" y="-348.37333333333333"/>
+            <point key="canvasLocation" x="-144" y="-349"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Tti-JK-sMx">
@@ -85,6 +93,12 @@
             <point key="canvasLocation" x="-551.4666666666667" y="-348.37333333333333"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="events-icon.png" width="80" height="80"/>
+        <image name="options-icon.png" width="80" height="80"/>
+        <image name="shop-icon.png" width="80" height="80"/>
+        <image name="tracks-icon.png" width="80" height="80"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
